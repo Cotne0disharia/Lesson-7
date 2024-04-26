@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: gray;
+}
+
+.container {
+    margin-top: 200px;
+    background: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    animation: changeshapeh 3s infinite alternate;
+}
+
+@keyframes changeshapeh {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+
+    25% {
+      width: 60px;
+      height: 60px;
+    }
+
+    50% {
+      width: 60px;
+      height: 240px;
+
+    }
+
+    100% {
+      width: 480px;
+      height: 240px;
+    }
+}
